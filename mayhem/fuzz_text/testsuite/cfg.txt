@@ -1,0 +1,6 @@
+// config
+bind w "+forward"
+bind s "+back"
+set sensitivity 3.5
+alias go "map start; wait; echo hi"
+map e1m1 

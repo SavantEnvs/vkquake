@@ -1,0 +1,9 @@
+project: savantenvs/vkquake
+target: fuzz_wad
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_wad/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_wad
+    libfuzzer: true
+    timeout: 30

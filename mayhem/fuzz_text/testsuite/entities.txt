@@ -1,0 +1,11 @@
+{
+"classname" "worldspawn"
+"wad" "gfx/base.wad;gfx/other.wad"
+"message" "The Slipgate Complex"
+"sounds" "6"
+}
+{
+"classname" "info_player_start"
+"origin" "480 -352 88"
+"angle" "90"
+}
